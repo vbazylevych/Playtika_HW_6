@@ -1,0 +1,13 @@
+Oracle’s revamped release plan for standard Java means the upcoming Java Development Kit 9 will not be designated for long-term support. Under this new regime, Java 9 is not the first long-term support release on which the first wave of twice-yearl "feature" releases is to be based on, but instead is the first “feature" release, with Java 8 as the base.
+
+Under a plan put forth by Oracle on September 6, there will be feature releases of Java, driven by one or a few significant new features, every six months. Every three years, the feature release will be a long-term support release, with the next long-term support release, to be called Java 18.9, arriving in September 2018. (The version designation of 18.9 stipulates the year and month of the release’s arrival.)
+
+Java 9’s feature release status does not negate its importance, Oracle argues. The company believes developers will want it for the new capabilities it brings, regardless of its release classification. Some people, especially developers, will want to hop on JDK 9 right away to access its new features, said Georges Saab, vice president in the Java platform group at Oracle.
+
+However, enterprises running applications in production may want to wait for the next long-term release, giving Oracle and authors of third-party Java libraries and frameworks time to shake out any bugs in the major new functionality.
+
+“This is no different by the way from previous adoption cycles of major releases,” Saab said. Updates for long-term support releases are to be available for at least three years. These releases are geared to enterprises preferring stability, enabling them to run large applications on a single release.
+
+The next feature release following Java 9 would be Java 18.3, due next March. Aside from feature and long-term support releases, there would be update releases for feature releases, limited to fixing security vulnerabilities, bugs, and regression issues. Each feature release is slated to get two updates before the next feature release. Public updates for the current major Java release, JDK 8, are due to end as soon as September 2018, though the deadline may be extended. Extended support for JDK 8 is due to be available until March 2025.
+
+This story, "Java 9 will not receive long-term support" was originally published by InfoWorld.

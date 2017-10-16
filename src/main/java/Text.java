@@ -1,10 +1,4 @@
-package com.playtika.hw2;
-
-import com.playtika.hw2.TextUtils;
-
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 
 public class Text {
@@ -17,22 +11,19 @@ public class Text {
 
     public String[] getTopWords(int n) {
 
-        String[] arrayOfUniqueWords = TextUtils.getArrayOfUniqueWords(TextUtils.clearText(text));
-        Arrays.sort(arrayOfUniqueWords);
+        String[] uniqueWords = TextUtils.getUniqueWords(TextUtils.clearText(text));
+
+        Arrays.sort(uniqueWords);
+
         String[] strings = {};
 
-        if (arrayOfUniqueWords.length < n) {
-            System.out.println("Incorrect N: array has only " + arrayOfUniqueWords.length + " elements");
+        if (uniqueWords.length < n || n == 0 || n < 0) {
+            System.out.println("Incorrect N: array has only " + uniqueWords.length + " elements");
             return strings;
+        } else {
+            strings = Arrays.copyOfRange(uniqueWords, 0, n);
         }
-
-        try {
-            strings = Arrays.copyOfRange(arrayOfUniqueWords, 0, n);
-        } catch (Exception e) {
-            System.out.println("Incorrect N: " + e.getMessage());
-        } finally {
-            return strings;
-        }
+        return strings;
     }
 
 
@@ -61,5 +52,4 @@ public class Text {
         }
         return sum;
     }
-
 }
