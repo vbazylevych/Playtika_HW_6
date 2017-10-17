@@ -12,7 +12,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        Path directory = Paths.get("testfiles");
+        Path directory = Paths.get("src/main/resources/testfiles");
 
         if (Files.exists(directory) && Files.isDirectory(directory)) {
             try {
