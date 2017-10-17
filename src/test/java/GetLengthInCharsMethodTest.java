@@ -10,9 +10,9 @@ public class GetLengthInCharsMethodTest {
 
     @Test
     public void stringWithSpecificSymbols() {
-        Text text = new Text("kot,% #@ !" + "\n");
-        int result = text.getLengthInChars();
-        int expectedResult = 3;
+        Text text = new Text("koto,% #@ !" + "\n");
+        long result = text.getLengthInChars();
+        long expectedResult = 4;
 
         assertThat(expectedResult, Matchers.is(result));
 
@@ -23,16 +23,16 @@ public class GetLengthInCharsMethodTest {
     public void stringWithSameWords() {
         Text text = new Text("kot kot");
         double result = text.getLengthInChars();
-        double expectedResult = 16;
+        double expectedResult = 6;
 
-        assertThat("same words processed incorrect",expectedResult, closeTo(result,10));
+        assertThat("same words processed incorrect",expectedResult,  Matchers.equalTo(result));
     }
 
     @Test
     public void stringWithUpperCases() {
         Text text = new Text("Kot KROT");
-        int result = text.getLengthInChars();
-        int expectedResult = 7;
+        long result = text.getLengthInChars();
+        long expectedResult = 7;
 
         assertThat("String with uppercases processed incorrect", expectedResult, greaterThanOrEqualTo(result));
     }
@@ -40,20 +40,20 @@ public class GetLengthInCharsMethodTest {
     @Test
     public void stringIsEmpty() {
         Text text = new Text("");
-        int result = text.getLengthInChars();
-        int expectedResult = 0;
+        long result = text.getLengthInChars();
+        long expectedResult = 0;
         assertThat(expectedResult, Matchers.equalTo(result));
     }
 
     @Test
     public void stringWithoutWords() {
         Text text = new Text(" ");
-        int result = text.getLengthInChars();
-        int expectedResult = 0;
+        long result = text.getLengthInChars();
+        long expectedResult = 0;
         assertThat(expectedResult, CoreMatchers.not(1));
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void stringWithNull() {
         Text text = new Text(null);
         text.getLengthInChars();
