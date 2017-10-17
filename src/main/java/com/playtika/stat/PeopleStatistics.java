@@ -1,3 +1,5 @@
+package com.playtika.stat;
+
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
@@ -8,25 +10,9 @@ import static java.util.Comparator.*;
 import static java.util.Map.Entry.*;
 import static java.util.stream.Collectors.*;
 
-public class Main {
+public class PeopleStatistics {
 
     public static void main(String[] args) throws IOException {
-
-        Path directory = Paths.get("src/main/resources/testfiles");
-
-        if (Files.exists(directory) && Files.isDirectory(directory)) {
-            try {
-                Map<String, Long> collect = Files.walk(directory)
-                        .filter(Files::isRegularFile)
-                        .flatMap(Main::getLines)
-                        .map(Main::getWordFrequencies)
-                        .flatMap(map -> map.entrySet().stream())
-                        .collect(groupingBy(Entry::getKey, counting()));
-                System.out.println("Merge maps: " + collect);
-            } catch (IOException e) {
-                System.out.println("Upssss");
-            }
-        }
 
         List<Person> persons = new ArrayList<>();
         persons.add(new Person("Kot", 96, "Kiev"));
@@ -71,19 +57,6 @@ public class Main {
                 .entrySet().stream()
                 .max(comparingByValue())
                 .ifPresent(p -> System.out.println("Megapolis is: " + p.getKey()));
-    }
-
-    private static Map<String, Long> getWordFrequencies(String line) {
-        return new Text(line).getWordFrequencies();
-    }
-
-    private static Stream<? extends String> getLines(Path path) {
-        try {
-            return Files.lines(path);
-        } catch (IOException e) {
-            e.printStackTrace();
-            return Stream.of("");
-        }
     }
 }
 

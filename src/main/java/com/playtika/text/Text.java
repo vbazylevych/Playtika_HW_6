@@ -1,3 +1,5 @@
+package com.playtika.text;
+
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -12,7 +14,7 @@ public class Text {
 
     public Text(String text) {
         if (text == null) {
-            throw new IllegalArgumentException("Text should not be null");
+            throw new IllegalArgumentException("com.playtika.text.Text should not be null");
         } else {
             this.text = text;
             this.words = Stream.of(text.toLowerCase().split("[^A-Za-z]")).filter(s -> !s.isEmpty()).collect(Collectors.toList());
