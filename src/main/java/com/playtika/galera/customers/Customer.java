@@ -1,4 +1,4 @@
-package com.playtika.hw1.customers;
+package com.playtika.galera.customers;
 
 public   class Customer {
     private static String idea ;

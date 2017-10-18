@@ -1,4 +1,4 @@
-package com.playtika.hw1.employees;
+package com.playtika.galera.employees;
 
 import java.math.BigDecimal;
 
