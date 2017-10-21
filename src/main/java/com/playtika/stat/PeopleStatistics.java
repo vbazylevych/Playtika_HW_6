@@ -1,5 +1,8 @@
 package com.playtika.stat;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
@@ -11,8 +14,10 @@ import static java.util.Map.Entry.*;
 import static java.util.stream.Collectors.*;
 
 public class PeopleStatistics {
+    private static final Logger LOG = LoggerFactory.getLogger(PeopleStatistics.class);
 
     public static void main(String[] args) throws IOException {
+
 
         List<Person> persons = new ArrayList<>();
         persons.add(new Person("Kot", 96, "Kiev"));
@@ -23,6 +28,9 @@ public class PeopleStatistics {
         persons.add(new Person("Begemot", 15, "London"));
         persons.add(new Person("Igorek", 13, "Kiev"));
 
+        LOG.info("List was created");
+
+        LOG.debug("kot");
         //кол-во людей с именем кот
         long count = persons.stream()
                 .filter(p -> p.getName().equals("Kot"))
