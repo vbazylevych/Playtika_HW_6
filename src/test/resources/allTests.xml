@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Text tests">
+    <test name="Get top words">
+        <groups>
+            <run>
+                <include name="GetTopWords" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.playtika.testng.text.GetTopWordsMethodTest" />
+        </classes>
+    </test>
+
+    <test name="Get length">
+        <groups>
+            <run>
+                <include name="GetLengthInChars" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.playtika.testng.text.GetLengthInCharsMethodTest" />
+        </classes>
+    </test>
+
+    <test name="Word frequencies">
+        <groups>
+            <run>
+                <include name="GetWordFrequencies" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.playtika.testng.text.GetWordFrequenciesMethodTest" />
+        </classes>
+    </test>
+</suite>

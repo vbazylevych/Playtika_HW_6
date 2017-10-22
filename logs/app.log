@@ -38,3 +38,123 @@
 17:03:18.016 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string prosto ne kot! was created
 17:03:18.017 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
 17:03:18.037 [main] INFO  com.playtika.text.AggregateFrequencies - Merge maps: {varkot=1, kot=3, serii=1, barsik=1, ne=2, prosto=2}
+18:55:03.595 [main] DEBUG com.playtika.text.AggregateFrequencies - Wonted directory is src\main\resources\testfiles
+18:55:03.607 [main] DEBUG com.playtika.text.AggregateFrequencies - wonted directory exist
+18:55:03.720 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string barsik was created
+18:55:03.722 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+18:55:03.724 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string serii kot! was created
+18:55:03.725 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+18:55:03.725 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string @#%% was created
+18:55:03.725 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+18:55:03.731 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string prosto prosto prosto kot ne varkot was created
+18:55:03.732 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+18:55:03.740 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string prosto ne kot! was created
+18:55:03.740 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+18:55:03.741 [main] INFO  com.playtika.text.AggregateFrequencies - Merge maps: {varkot=1, kot=3, serii=1, barsik=1, ne=2, prosto=2}
+19:06:11.277 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string # ? \%^ **() : art-, a, @kot! was created
+19:06:11.394 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.394 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:06:11.427 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string art art kot kot was created
+19:06:11.428 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.428 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 2 words
+19:06:11.433 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  a ART Kot was created
+19:06:11.433 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.433 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:06:11.437 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string 123 0 art a kot 23 was created
+19:06:11.437 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.438 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:06:11.442 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot	  
+art a was created
+19:06:11.442 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.443 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:06:11.445 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  was created
+19:06:11.447 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.447 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:06:11.450 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot кот абракакот art a was created
+19:06:11.452 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.453 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:06:11.455 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string begemot art a was created
+19:06:11.456 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.456 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 0 words
+19:06:11.464 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string begemot art a was created
+19:06:11.464 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:06:11.464 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton -1 words
+19:33:01.745 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string # ? \%^ **() : art-, a, @kot! was created
+19:33:01.837 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.838 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:33:01.861 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string art art kot kot was created
+19:33:01.861 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.861 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 2 words
+19:33:01.865 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  a ART Kot was created
+19:33:01.865 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.865 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:33:01.873 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string 123 0 art a kot 23 was created
+19:33:01.873 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.873 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:33:01.878 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot	  
+art a was created
+19:33:01.879 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.879 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:33:01.880 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  was created
+19:33:01.883 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.883 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:33:01.886 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot кот абракакот art a was created
+19:33:01.891 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.891 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:33:01.898 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string begemot art a was created
+19:33:01.899 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.899 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 0 words
+19:33:01.908 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string begemot art a was created
+19:33:01.909 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:33:01.910 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton -1 words
+19:39:42.445 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string # ? \%^ **() : art-, a, @kot! was created
+19:39:42.534 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.535 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:39:42.556 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string art art kot kot was created
+19:39:42.559 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.559 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 2 words
+19:39:42.566 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  a ART Kot was created
+19:39:42.566 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.566 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:39:42.573 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string 123 0 art a kot 23 was created
+19:39:42.574 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.574 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:39:42.578 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot	  
+art a was created
+19:39:42.578 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.579 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:39:42.583 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  was created
+19:39:42.583 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.583 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:39:42.586 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot кот абракакот art a was created
+19:39:42.589 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.589 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 3 words
+19:39:42.591 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string begemot art a was created
+19:39:42.594 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.594 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton 0 words
+19:39:42.603 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string begemot art a was created
+19:39:42.603 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.605 [main] DEBUG com.playtika.text.AggregateFrequencies - get ton -1 words
+19:39:42.618 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string koto,% #@ !
+ was created
+19:39:42.623 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.631 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string Kot KROT was created
+19:39:42.631 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.634 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot kot was created
+19:39:42.634 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.637 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  was created
+19:39:42.638 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.640 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string   was created
+19:39:42.647 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.650 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot kot sema was created
+19:39:42.650 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.671 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kotkot rrr was created
+19:39:42.672 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.673 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string kot ^   ...//%sema, ,, was created
+19:39:42.673 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.679 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string koT KOT SEma was created
+19:39:42.680 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.682 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string  was created
+19:39:42.683 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
+19:39:42.685 [main] DEBUG com.playtika.text.AggregateFrequencies - text with string     was created
+19:39:42.685 [main] DEBUG com.playtika.text.AggregateFrequencies - text was split to words
