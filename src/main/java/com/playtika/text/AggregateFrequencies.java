@@ -29,9 +29,9 @@ public class AggregateFrequencies {
                         .map(AggregateFrequencies::getWordFrequencies)
                         .flatMap(map -> map.entrySet().stream())
                         .collect(groupingBy(Map.Entry::getKey, counting()));
-                LOG.info("Merge maps: " + collect);
+                LOG.info("Merged map: " + collect);
             } catch (IOException e) {
-                LOG.info("Can't work with specified directory {}", directory.toString());
+                LOG.error("Can't work with specified directory {}", directory.toString());
             }
         }
     }
@@ -44,8 +44,8 @@ public class AggregateFrequencies {
         try {
             return Files.lines(path);
         } catch (IOException e) {
-            LOG.info("Cant get lines from file");
-            LOG.debug(e.getMessage());
+            LOG.error("Cant get lines from file");
+            LOG.error(e.getMessage());
             return Stream.of("");
         }
     }

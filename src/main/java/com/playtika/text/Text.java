@@ -20,10 +20,10 @@ public class Text {
         if (text == null) {
             throw new IllegalArgumentException("com.playtika.text.Text should not be null");
         } else {
-            LOG.debug("text with string {} was created", text);
+            LOG.debug("text with string << {} >> was created", text);
             this.text = text;
             this.words = Stream.of(text.toLowerCase().split("[^A-Za-z]")).filter(s -> !s.isEmpty()).collect(Collectors.toList());
-            LOG.debug("text was split to words");
+            LOG.debug("text << {} >> was split to words", text);
         }
     }
 
