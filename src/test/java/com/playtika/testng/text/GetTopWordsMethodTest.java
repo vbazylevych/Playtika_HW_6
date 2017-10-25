@@ -6,9 +6,10 @@ import org.testng.annotations.Test;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.startsWith;
+import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertThat;
+import static org.testng.Assert.assertEquals;
+
 
 public class GetTopWordsMethodTest {
 
@@ -41,6 +42,7 @@ public class GetTopWordsMethodTest {
         String[] expectedResult = {"a", "art", "kot"};
         String[] result = text.getTopWords(3).toArray(new String[0]);
         assertEquals(expectedResult, result);
+
     }
 
     @Test(groups = "GetTopWords",
