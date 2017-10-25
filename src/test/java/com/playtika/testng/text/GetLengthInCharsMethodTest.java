@@ -11,7 +11,7 @@ import static org.hamcrest.number.OrderingComparison.greaterThanOrEqualTo;
 
 public class GetLengthInCharsMethodTest {
 
-    @Test(groups = {"GetLengthInChars"})
+    @Test(groups = "GetLengthInChars")
     public void stringWithSpecificSymbols() {
         Text text = new Text("koto,% #@ !" + "\n");
         long result = text.getLengthInChars();
@@ -20,7 +20,7 @@ public class GetLengthInCharsMethodTest {
         assertThat(expectedResult, Matchers.is(result));
     }
 
-    @Test(groups = {"GetLengthInChars"})
+    @Test(groups = "GetLengthInChars")
     public void stringWithSameWords() {
         Text text = new Text("kot kot");
         double result = text.getLengthInChars();
@@ -29,7 +29,7 @@ public class GetLengthInCharsMethodTest {
         assertThat("same words processed incorrect", expectedResult, Matchers.equalTo(result));
     }
 
-    @Test(groups = {"GetLengthInChars"})
+    @Test(groups = "GetLengthInChars")
     public void stringWithUpperCases() {
         Text text = new Text("Kot KROT");
         long result = text.getLengthInChars();
@@ -38,7 +38,7 @@ public class GetLengthInCharsMethodTest {
         assertThat("String with uppercases processed incorrect", expectedResult, greaterThanOrEqualTo(result));
     }
 
-    @Test(groups = {"GetLengthInChars"},
+    @Test(groups = "GetLengthInChars",
             priority = 1)
     public void stringIsEmpty() {
         Text text = new Text("");
@@ -47,7 +47,7 @@ public class GetLengthInCharsMethodTest {
         assertThat(expectedResult, Matchers.equalTo(result));
     }
 
-    @Test(groups = {"GetLengthInChars"},
+    @Test(groups = "GetLengthInChars",
             priority = 1,
             dependsOnMethods = "stringIsEmpty")
     public void stringWithoutWords() {
@@ -58,7 +58,7 @@ public class GetLengthInCharsMethodTest {
     }
 
     @Test(expectedExceptions = IllegalArgumentException.class,
-            groups = {"GetLengthInChars"},
+            groups = "GetLengthInChars",
             priority = 2)
     public void stringWithNull() {
         Text text = new Text(null);
