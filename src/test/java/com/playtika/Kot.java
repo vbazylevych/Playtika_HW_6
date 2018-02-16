@@ -11,6 +11,7 @@ import org.testng.annotations.Test;
 
 import java.io.File;
 
+
 public class Kot {
     public static BrowserWebDriverContainer browser = new BrowserWebDriverContainer();
 
@@ -46,4 +47,6 @@ public class Kot {
         RemoteWebDriver driver = browser.getWebDriver();
         WebDriverRunner.setWebDriver(driver);
     }
+
+
 }
