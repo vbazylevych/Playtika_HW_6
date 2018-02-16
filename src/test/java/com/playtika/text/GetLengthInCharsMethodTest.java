@@ -1,10 +1,19 @@
 package com.playtika.text;
 
+import io.restassured.http.ContentType;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 import org.junit.Test;
 import org.hamcrest.Matchers;
+
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.assertThat;
+
 import org.hamcrest.CoreMatchers;
+
+import java.util.List;
 
 
 public class GetLengthInCharsMethodTest {
@@ -26,7 +35,7 @@ public class GetLengthInCharsMethodTest {
         double result = text.getLengthInChars();
         double expectedResult = 6;
 
-        assertThat("same words processed incorrect",expectedResult,  Matchers.equalTo(result));
+        assertThat("same words processed incorrect", expectedResult, Matchers.equalTo(result));
     }
 
     @Test
@@ -59,6 +68,5 @@ public class GetLengthInCharsMethodTest {
         Text text = new Text(null);
         text.getLengthInChars();
     }
-
 
 }

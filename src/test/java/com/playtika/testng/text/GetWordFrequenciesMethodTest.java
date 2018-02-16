@@ -1,13 +1,20 @@
 package com.playtika.testng.text;
 
 import com.playtika.text.Text;
+import io.restassured.path.json.JsonPath;
+import org.junit.Assert;
 import org.testng.annotations.Test;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
+import static io.restassured.RestAssured.given;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
+import static org.testng.AssertJUnit.assertTrue;
 
 
 public class GetWordFrequenciesMethodTest {
@@ -82,4 +89,6 @@ public class GetWordFrequenciesMethodTest {
         Text text = new Text(null);
         text.getWordFrequencies();
     }
+
+
 }
